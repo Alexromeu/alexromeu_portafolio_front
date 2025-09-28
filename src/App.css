@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import './styles/animations.css';
+
+:root {
+  font-family:  "Lexend Giga", sans-serif;
+  
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F5F5F0;
+  --background-photo-hero: url('/images/background-hero.jpg');
+  --contact-background: url('/images/background-hero.jpg');
+  --aboutme-background: url('/images/aboutMe_background.jpg');
+  --other-image: url('/images/background.jpg');
+  --header-letters-color: #F5F5F0;
+  --header-letters-color-hover:#9398a1;
+  --header-color: #030303;
+  --hero-button-color: #09122C;
+  --hero-button-color-hover: #23486A;
+}
+
+a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--header-letters-color);
+  text-decoration: none;
+
+}
+a:hover {
+  color: var(--header-letters-color-hover);
+  animation: pulse 200ms ease-in-out;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y:auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,31 @@
+.header-container {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 60px;
+    background-color: var(--header-color);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between
+}
+
+
+.btns-container {
+    margin-right: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--header-letters-color);
+    cursor: pointer;
+}
+
+.header-btn {
+    margin: 0 25px 0 25px;
+}

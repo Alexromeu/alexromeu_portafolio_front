@@ -1,0 +1,52 @@
+.about-me-background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: var(--aboutme-background);
+    z-index: 0;
+}
+
+.about-me-background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: hidden;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin: 0 100px;
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100;
+}
+
+.aboutme-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FFFDF6;
+  font-weight: 600;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.text-about-me {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #FFFDF6;
+  padding: 0 10px;
+
+}
