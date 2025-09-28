@@ -5,7 +5,7 @@
   align-items: center;
   width: 100vw;
   box-sizing: border-box;
-  background-image: var(--other-image);
+  background-image: var(--contact-background);
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
   z-index: 0;
   overflow-y: hidden;
 }
@@ -35,7 +35,7 @@ form {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.05); /* subtle contrast */
+  background-color: rgba(255, 255, 255, 0.05); 
   border-radius: 12px;
 }
 
@@ -47,24 +47,23 @@ form {
 }
 
 .btn-form {
-  all: unset;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20px;
   padding: 12px 24px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: white;
-  background-color: #007bff;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  background-color: var(--hero-button-color);
   border: none;
-  margin: 0 25px 0 25px
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s;
+  margin: 0 20px 0 20px;
 }
 
 .btn-form:hover {
-  background-color: #0056b3;
+  background-color: var(--hero-button-color-hover);
+  animation: pulse 200ms ease-in-out;
 }
 
 .input-container {
@@ -84,10 +83,10 @@ form {
   font-size: 1rem;
   border: none;
   border-bottom: 2px solid #ccc;
-  background-color: rgba(255, 255, 255, 0.1);
   color: white;
   border-radius: 4px 4px 0 0;
   transition: border-color 0.3s, background-color 0.3s;
+  background-color: transparent;
 }
 
 .input-elem::placeholder {

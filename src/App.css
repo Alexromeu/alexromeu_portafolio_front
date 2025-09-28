@@ -16,8 +16,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #F5F5F0;
-  --background-photo-hero: url('/images/background-hero.jpg');
-  --contact-background: url('/images/background-hero.jpg');
+  --background-photo-hero: url('/images/background_image1.jpg');
+  --contact-background: url('/images/contact_back.jpg');
   --aboutme-background: url('/images/aboutMe_background.jpg');
   --other-image: url('/images/background.jpg');
   --header-letters-color: #F5F5F0;

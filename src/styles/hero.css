@@ -8,7 +8,7 @@
   align-items: center;
   width: 100vw;
   box-sizing: border-box;
-  background-image: var(--other-image); 
+  background-image: var(--background-photo-hero); 
   background-size: cover;    
   background-position: center;
   background-repeat: no-repeat;
