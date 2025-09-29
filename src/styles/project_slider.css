@@ -25,19 +25,23 @@
 
 }
 
-
+#projects {
+      padding: 20px;
+}
 /* Carousel Container */
 .carousel {
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 30px 0 30px 0;
+      margin: 0;
       box-sizing: border-box;
-   
+      height:auto;
       overflow-x: auto;
-      overflow-y: hidden;
+      overflow-y: auto;
       touch-action: pan-x;
+      height:auto;
+      padding: 20px;
 }
 
 /* Carousel Row */
@@ -49,9 +53,10 @@
       justify-content: flex-start;
       align-items: center;
       box-sizing: border-box;
-      
+      overflow: visible;
+      height:auto;
       min-width: fit-content;
-      
+      padding: 20px;
 }
 
 /* Content Tile */
@@ -66,12 +71,12 @@
       transform-origin: center left;
       cursor: pointer;
       cursor: hand;
-      
+      padding-bottom:20px;
 }
 
 /* Add Extra Margin to Last Carousel Tile */
 .carousel-tile:last-of-type {
-      margin-right: calc(var(--carousel-tile-width));
+      margin-right: calc(var(--carousel-tile-width) * 0.4);
 } 
 
 /* Ensure All Elements Inside Tile are Block */
@@ -121,7 +126,8 @@
   align-items: center;    /* vertically centers tiles */
   width: 90vw;
   scrollbar-width: none;  
- 
+  height:auto;
+  padding: 20px;
 }
 
 

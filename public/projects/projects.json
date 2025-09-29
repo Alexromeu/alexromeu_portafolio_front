@@ -3,7 +3,7 @@
     "index": 0,
     "name": "Portfolio Site",
     "description": "A sleek React-based portfolio. this is another line",
-    "imageurl": "/images/portfolio.jpg",
+    "imageurl": "/images/contact_back.jpg",
     "demoUrl": "http://project2.com"
   },
 
@@ -11,14 +11,14 @@
     "index": 1,
     "name": "Weather App",
     "description": "Real-time weather with API integration.",
-    "imageurl": "/images/weather.jpg",
+    "imageurl": "/images/aboutMe_background.jpg",
     "demoUrl": "http://project1.com"
   },
   {
     "index": 2,
     "name": "Portfolio Site",
     "description": "A sleek React-based portfolio.",
-    "imageurl": "/images/portfolio.jpg",
+    "imageurl": "/images/background-hero.jpg",
     "demoUrl": "http://project2.com"
   },
 
@@ -26,14 +26,14 @@
     "index": 3,
     "name": "Weather App",
     "description": "Real-time weather with API integration.",
-    "imageurl": "/images/weather.jpg",
+    "imageurl": "/images/contact2_back.jpg",
     "demoUrl": "http://project1.com"
   },
   {
     "index": 4,
     "name": "Portfolio Site",
     "description": "A sleek React-based portfolio.",
-    "imageurl": "/images/portfolio.jpg",
+    "imageurl": "/images/background_image1.jpg",
     "demoUrl": "http://project2.com"
   },
 
@@ -41,7 +41,7 @@
     "index": 5,
     "name": "Weather App",
     "description": "Real-time weather with API integration.",
-    "imageurl": "/images/weather.jpg",
+    "imageurl": "/images/background_image2.jpg",
     "demoUrl": "http://project1.com"
   }
 ]
