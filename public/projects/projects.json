@@ -1,0 +1,47 @@
+[
+  {
+    "index": 0,
+    "name": "Portfolio Site",
+    "description": "A sleek React-based portfolio. this is another line",
+    "imageurl": "/images/portfolio.jpg",
+    "demoUrl": "http://project2.com"
+  },
+
+  {
+    "index": 1,
+    "name": "Weather App",
+    "description": "Real-time weather with API integration.",
+    "imageurl": "/images/weather.jpg",
+    "demoUrl": "http://project1.com"
+  },
+  {
+    "index": 2,
+    "name": "Portfolio Site",
+    "description": "A sleek React-based portfolio.",
+    "imageurl": "/images/portfolio.jpg",
+    "demoUrl": "http://project2.com"
+  },
+
+  {
+    "index": 3,
+    "name": "Weather App",
+    "description": "Real-time weather with API integration.",
+    "imageurl": "/images/weather.jpg",
+    "demoUrl": "http://project1.com"
+  },
+  {
+    "index": 4,
+    "name": "Portfolio Site",
+    "description": "A sleek React-based portfolio.",
+    "imageurl": "/images/portfolio.jpg",
+    "demoUrl": "http://project2.com"
+  },
+
+  {
+    "index": 5,
+    "name": "Weather App",
+    "description": "Real-time weather with API integration.",
+    "imageurl": "/images/weather.jpg",
+    "demoUrl": "http://project1.com"
+  }
+]

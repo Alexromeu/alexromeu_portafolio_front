@@ -15,7 +15,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #F5F5F0;
+
+  background-color: #000000;
   --background-photo-hero: url('/images/background_image1.jpg');
   --contact-background: url('/images/contact_back.jpg');
   --aboutme-background: url('/images/aboutMe_background.jpg');
@@ -47,7 +48,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
 h1 {

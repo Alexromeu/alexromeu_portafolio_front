@@ -1,5 +1,6 @@
 import "../styles/header.css"
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link'
 import { useNavigate } from "react-router-dom";
 
  
@@ -17,8 +18,8 @@ export default function Header() {
      </div>
 
     <div className="btns-container">  
-        <Link className="header-btn" to="/#projects">Projects</Link>
-        <Link className="header-btn" to="/#skills">Skills</Link>
+        <HashLink className="header-btn" smooth to="/#projects">Projects</HashLink>
+        <HashLink className="header-btn" smooth to="/#skills">Skills</HashLink>
         <Link className="header-btn" to="/aboutMe">About Me</Link>
         <Link className="header-btn" to="/contact">Contact me</Link>
     </div>  
