@@ -3,7 +3,7 @@ import { useState } from "react"
 import "../../styles/contact_us.css"
 import handleFormSubmit from "./handleFormSubmit"
 import { Dialog } from "@mui/material"
-import { downloadFile } from "../DownloadFile"
+import { downloadFile } from "../../utils/DownloadFile"
 
 
 

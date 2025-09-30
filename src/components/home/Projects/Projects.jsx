@@ -20,7 +20,7 @@ export default function Projects() {
     return(<>
     <section id="projects">
     <div className='carousel'>
-      <button onClick={() => scrollCarousel(carouselRef, -1)} className="scroll-btn left">‹</button>
+      <button onClick={() => scrollCarousel(carouselRef, -1)} className="scroll-btn left"><span>‹</span></button>
       <div className="carousel-scroll" ref={carouselRef}>
         
       <div className="carousel-row">
@@ -37,7 +37,7 @@ export default function Projects() {
      </div>
         
      </div>
-     <button onClick={() => scrollCarousel(carouselRef, 1)} className="scroll-btn right">›</button> 
+     <button onClick={() => scrollCarousel(carouselRef, 1)} className="scroll-btn right"><span>›</span></button> 
     </div> 
     </section>  
     </>)

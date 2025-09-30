@@ -12,17 +12,20 @@ export default function Header() {
   }
     
     return (<>
+    
     <div className="header-container">
      <div className="logo-container" onClick={handleClick}>
         Logo?
      </div>
-
+    
+    
     <div className="btns-container">  
         <HashLink className="header-btn" smooth to="/#projects">Projects</HashLink>
         <HashLink className="header-btn" smooth to="/#skills">Skills</HashLink>
         <Link className="header-btn" to="/aboutMe">About Me</Link>
         <Link className="header-btn" to="/contact">Contact me</Link>
     </div>  
-    </div> 
+    </div>
+    
     </>)
 } 

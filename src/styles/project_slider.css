@@ -134,7 +134,7 @@
 .scroll-btn {
   position: absolute;
   z-index: 10;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0 ,0, 0.5);
   color: white;
   border: none;
   font-size: 2rem;
@@ -146,8 +146,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease box-shadow 0.3 ease;
 }
 
+.scroll-btn:hover {
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.2);
+  transform: scale(1.2);
+  
+}
 
 .scroll-btn.left {
   left: 10px;
@@ -157,3 +163,77 @@
   right: 10px;
 }
 
+.scroll-btn > span {
+      position:absolute;
+      bottom: 3px;
+      right:13px
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    --carousel-tile-width: 150px; /* Smaller tiles for mobile */
+    --carousel-tile-spacing: 8px;
+    --carousel-growth-factor: 1; /* Disable zoom on hover */
+    --carousel-fade-opacity: 1;  /* No fade effect */
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .carousel-row {
+    display: flex;
+    flex-direction: column;  
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 85vw;
+  }
+
+  .carousel-tile {
+    margin: 10px;
+    width: 70vw;
+    height: auto;
+    transform: none;
+  }
+  .carousel-tile:last-of-type {
+    margin: 10px;
+} 
+
+  .carousel-row:hover {
+    transform: none;
+  }
+
+  .carousel-row:hover .carousel-tile,
+  .carousel-row:hover .carousel-tile:hover,
+  .carousel-tile:hover ~ .carousel-tile {
+    transform: none;
+    opacity: 1;
+  }
+
+  .carousel-scroll {
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+
+  .scroll-btn {
+   display: none;
+  }
+
+  .scroll-btn > span {
+    display:none;
+  }
+
+  #projects {
+      padding: 0;
+}
+
+}
