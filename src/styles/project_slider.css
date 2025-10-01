@@ -27,6 +27,13 @@
 
 #projects {
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+#projects > h1 {
+      font-size: 3rem;
 }
 /* Carousel Container */
 .carousel {
@@ -234,6 +241,10 @@
 
   #projects {
       padding: 0;
+}
+
+#projects > h1 {
+      font-size: 1.5rem;
 }
 
 }

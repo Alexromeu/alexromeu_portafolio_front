@@ -15,7 +15,7 @@ export default function Header() {
     
     <div className="header-container">
      <div className="logo-container" onClick={handleClick}>
-        Logo?
+       Alexander
      </div>
     
     
