@@ -10,7 +10,7 @@ export default function Hero() {
   }
 
     return (
-    <div className ="hero-container">
+    <div className ="hero-container" id="hero">
         
         <h2 className="hero-title">Q bola</h2>
         <button className="hero-button" onClick={handleClick}>Contact</button>

@@ -21,15 +21,16 @@
   --contact-background: url('/images/contact_back.jpg');
   --aboutme-background: url('/images/aboutMe_background.jpg');
   --other-image: url('/images/background.jpg');
+  --logo: url('/icons/logo_markup.svg');
   --header-letters-color: #F5F5F0;
   --header-letters-color-hover:#9398a1;
-  --header-color: #030303;
+  --header-color: #090909;
   --hero-button-color: #09122C;
   --hero-button-color-hover: #23486A;
 }
 
 * {
-  background-color: black;
+  background-color: var(--header-color);
   
 }
 
