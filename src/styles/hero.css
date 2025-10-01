@@ -11,7 +11,7 @@
   background-image: var(--background-photo-hero); 
   background-size: cover;    
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   z-index: 0;
   position: relative;
   color: white;
@@ -33,6 +33,7 @@
   font-size: 3rem;
   font-weight: bold;
   z-index: 1;
+  background-color: transparent;
 }
 
 .hero-button {

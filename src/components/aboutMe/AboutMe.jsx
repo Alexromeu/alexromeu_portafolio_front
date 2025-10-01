@@ -1,8 +1,11 @@
 import '../../styles/aboutme.css'
+import AnimatedPage from '../../utils/AnimatedPage'
 
 export default function AboutMe() {
 
-    return (<div className='about-me-background-container'>
+    return (
+    <AnimatedPage>
+    <div className='about-me-background-container'>
      <div className="about-me-container">
 
         <h1 className="aboutme-title">
@@ -13,5 +16,7 @@ export default function AboutMe() {
           <p className="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quaerat iste voluptates qui, obcaecati quibusdam cumque nesciunt doloremque cum! Quaerat odio sunt pariatur tempora quia earum architecto obcaecati itaque?</p>
         </div>
      </div>
-    </div>)
+    </div>
+    </AnimatedPage>  
+    )
 }
