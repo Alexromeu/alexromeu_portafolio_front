@@ -131,8 +131,8 @@
   scroll-behavior: smooth;
   white-space: wrap;
   justify-content: flex-start;
-  align-items: center;    /* vertically centers tiles */
-  width: 90vw;
+  align-items: center;  
+  width: 100%;
   scrollbar-width: none;  
   height:auto;
   padding: 20px;
@@ -173,9 +173,16 @@
 .scroll-btn > span {
       position:absolute;
       bottom: 3px;
-      right:13px
+      right:13px;
+      background-color: transparent;
 }
 
+.btn-and-proj-container {
+      display:flex ;   
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+}
 
 @media (max-width: 768px) {
   :root {
@@ -186,29 +193,45 @@
   }
 
   .carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      box-sizing: border-box;
+      height:auto;
+      overflow-x: auto;
+      overflow-y: auto;
+      touch-action: pan-x;
+      height:auto;
+      padding: 20px;
   }
 
   .carousel-row {
-    display: flex;
-    flex-direction: column;  
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    width: 85vw;
+      white-space: nowrap;
+      transition: var(--carousel-transition-2);
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      box-sizing: border-box;
+      overflow: visible;
+      height:auto;
+      min-width: fit-content;
+      padding: 20px;
+      width: 85vw;
   }
 
   .carousel-tile {
     margin: 10px;
-    width: 70vw;
+    width: 85vw;
     height: auto;
+    margin: 0 auto; 
+    width: 85vw;
     transform: none;
   }
   .carousel-tile:last-of-type {
-    margin: 10px;
+    margin: 0;
 } 
 
   .carousel-row:hover {
@@ -223,20 +246,23 @@
   }
 
   .carousel-scroll {
-    width: 90vw;
+    width: 85vw;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 0;
     margin: auto;
   }
 
   .scroll-btn {
-   display: none;
+   transform: translateY(-150%) scale(0.7);
+   z-index: 10000;
+   padding: 0;
+   pointer-events: none
   }
 
   .scroll-btn > span {
-    display:none;
+    background-color: transparent;
   }
 
   #projects {
@@ -246,5 +272,7 @@
 #projects > h1 {
       font-size: 1.5rem;
 }
+
+
 
 }

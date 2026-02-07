@@ -14,27 +14,28 @@
   height: 10vh;
 }
 
-.logo-resp {
-  font-size: 1.2rem;
-  font-weight: bold;
+.logo-container {
   margin-left: 20px;
+  transform: scale(0.5);
+  background-color: transparent;
 }
 
 .menu-icon {
   font-size: 1.5rem;
   margin-right: 20px
+
 }
 
 .mobile-nav {
-  position: absolute;
+  position: fixed;
   top: 10vh;
-  right: 0;
+  right: 10px;
   width: 50%;
   background-color: #000;
   display: flex;
   flex-direction: column;
   text-align: end;
-  z-index: 1000;
+  z-index: 100001;
 }
 
 .mobile-nav a {
@@ -47,3 +48,4 @@
 .hidden {
   display: none;
 }
+
