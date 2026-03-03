@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
   box-sizing: border-box;
   background-image: var(--background-photo-hero); 
@@ -16,6 +16,10 @@
   position: relative;
   color: white;
   text-align: center;
+}
+
+.hero-container > * {
+  margin-left: 50px;
 }
 
 .hero-container::before {
