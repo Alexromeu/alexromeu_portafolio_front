@@ -3,7 +3,7 @@ import Contact from './components/contact/index'
 import Home from "./components/home/index"
 import { Routes, Route } from "react-router"
 import Layout from './components/Layout'
-import AboutMe from './components/aboutMe/aboutMe'
+import AboutMe from './components/aboutMe/AboutMe'
 import { AnimatePresence } from 'motion/react'
 
 function App() {
