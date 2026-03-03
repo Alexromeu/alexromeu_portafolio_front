@@ -1,5 +1,5 @@
 export default function parseURL(route) {
-  const url = 'http://localhost:3000'
+  const url = 'https://alexromeu-portafolio-backend.onrender.com'
   return `${url}${route}`
 }
 
