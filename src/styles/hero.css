@@ -36,6 +36,13 @@
   background-color: transparent;
 }
 
+.hero-title-h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 1;
+  background-color: transparent;
+}
+
 .hero-button {
   margin-top: 20px;
   padding: 12px 24px;
