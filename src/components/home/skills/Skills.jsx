@@ -9,9 +9,12 @@ export default function Skills() {
   { skill: "JavaScript", url: "/icons/skills/JavaScript.svg" },
   { skill: "nodejs", url: "/icons/skills/NodeJS-Dark.svg" },
   { skill: "python", url: "/icons/skills/Python-Dark.svg" },
+  { skill: "C", url:"/icons/skills/C.svg"},
+  { skill: "C++", url:"/icons/skills/CPP.svg"},
+  { skill: "TypeScript", url:"/icons/skills/TypeScript.svg"},
   { skill: "css", url: "/icons/skills/CSS.svg" },
   { skill: "html", url: "/icons/skills/HTML.svg" },
-  { skill: "TypeScript", url:"/icons/skills/TypeScript.svg"},
+  
 ]
    
     return (<>

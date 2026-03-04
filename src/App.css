@@ -22,16 +22,12 @@
   --aboutme-background: url('/images/aboutMe_background.jpg');
   --other-image: url('/images/background.jpg');
   --logo: url('/icons/logo_markup.svg');
+  --background_project_section_url: url('/images/projects_section_background.jpg'); 
   --header-letters-color: #F5F5F0;
   --header-letters-color-hover:#9398a1;
   --header-color: #090909;
-  --hero-button-color: #09122C;
-  --hero-button-color-hover: #23486A;
-}
-
-* {
-  background-color: var(--header-color);
-  
+  --hero-button-color: #47DBFF1f;
+  --hero-button-color-hover: #AC199D1f;
 }
 
 a {
@@ -39,14 +35,12 @@ a {
   font-size: 1.2rem;
   color: var(--header-letters-color);
   text-decoration: none;
-
 }
+
 a:hover {
   color: var(--header-letters-color-hover);
   animation: pulse 200ms ease-in-out;
 }
-
-
 
 body {
   padding: 0;
@@ -56,9 +50,9 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  
+  background-color: black;
+  margin-bottom: 50px;
 }
-
 
 h1 {
   font-size: 3.2em;
@@ -67,16 +61,6 @@ h1 {
 
 
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+@media (max-width: 768px) {
+    
 }

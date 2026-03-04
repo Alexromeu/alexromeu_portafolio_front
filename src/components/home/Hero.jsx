@@ -13,7 +13,7 @@ export default function Hero() {
     <div className ="hero-container" id="hero">
         
         <h2 className="hero-title">Alexander Romeu</h2>
-        <h3 className="hero-title-h3">Software Engineer | Backend specialist</h3>
+        <h3 className="hero-title-h3">Software Engineer | Backend dev</h3>
         <button className="hero-button" onClick={handleClick}>Contact</button>
      
     </div>)
