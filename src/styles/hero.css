@@ -87,11 +87,15 @@
 @media (max-width: 768px) {
     .hero-container {
       align-items: center;
+      background-size: 190% auto;
+      background-repeat: no-repeat;
+     
     }
 
     .hero-title, .hero-title-h3, .hero-button {
       margin-left: 0;
       font-size: 1.5em;
+      
     }
     .hero-button {
       margin-left: 0;
