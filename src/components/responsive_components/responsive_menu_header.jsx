@@ -16,7 +16,6 @@ export default function MobileMenu() {
   };
 
   useEffect(() => {
-    
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768)
     }
@@ -24,6 +23,28 @@ export default function MobileMenu() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize)
   }, [isMobile])
+
+  useEffect(() => {
+  if (!isOpen) return;
+
+  function handleClickOutside(e) {
+    const menu = document.querySelector(".mobile-nav");
+    const icon = document.querySelector(".menu-icon");
+
+    
+    if (
+      menu && !menu.contains(e.target) &&
+      icon && !icon.contains(e.target)
+    ) {
+      setIsOpen(false);
+    }
+  }
+
+  document.addEventListener("click", handleClickOutside);
+
+  return () => document.removeEventListener("click", handleClickOutside);
+}, [isOpen]);
+
 
   const handleClick = () => {
      navigate('/')
