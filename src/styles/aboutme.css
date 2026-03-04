@@ -57,3 +57,20 @@
   padding: 0 10px;
   background-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .about-me-container {
+    margin: 0 20px 5px 20px;
+  }
+  
+  .aboutme-title {
+    margin-top: 150px;
+    font-size: 1.5rem;
+  }
+
+  .text-about-me {
+    font-size: 0.7rem;
+  }
+
+
+}

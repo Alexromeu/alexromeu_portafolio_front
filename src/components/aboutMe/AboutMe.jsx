@@ -13,7 +13,13 @@ export default function AboutMe() {
         </h1>
 
         <div className="text-container">
-          <p className="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quaerat iste voluptates qui, obcaecati quibusdam cumque nesciunt doloremque cum! Quaerat odio sunt pariatur tempora quia earum architecto obcaecati itaque?</p>
+          <p className="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quaerat iste voluptates qui, obcaecati quibusdam cumque nesciunt doloremque cum! Quaerat odio sunt pariatur tempora quia earum architecto obcaecati itaque?
+          
+           <p className="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quaerat iste voluptates qui, obcaecati quibusdam cumque nesciunt doloremque cum! Quaerat odio sunt pariatur tempora quia earum architecto obcaecati itaque?
+          </p>
+          </p>
+          <p className="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate quaerat iste voluptates qui, obcaecati quibusdam cumque nesciunt doloremque cum! Quaerat odio sunt pariatur tempora quia earum architecto obcaecati itaque?
+          </p>
         </div>
      </div>
     </div>
