@@ -35,5 +35,6 @@ export default function Skills() {
         ))}
      </div>
     </section>
+    <div className="skill-down-bar"></div>
     </>)
 }

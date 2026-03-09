@@ -25,6 +25,9 @@
     margin: 15px
 } 
 
+.skill-down-bar {
+    height: 60px;
+}
 
 .skills-section > h1 {
     font-size: 3rem;
