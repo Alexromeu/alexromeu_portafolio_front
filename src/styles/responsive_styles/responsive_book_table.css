@@ -1,0 +1,67 @@
+
+.books-table-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.book-card-mobile {
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  padding: 12px;
+  border-radius: 10px;
+  width: 50%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+}
+
+
+
+.book-cover-mobile {
+  width: 90px;
+  height: auto;
+  border-radius: 6px;
+}
+
+
+@media (max-width: 768px) {
+  
+  .book-author-mobile,
+  .book-description-mobile {
+    display: none;
+  }
+
+  .book-title-mobile {
+    font-size: x-small;
+    text-justify:newspaper;
+  }
+
+  .book-card-mobile {
+    justify-content: center;
+    padding: 10px;
+    background-color: unset;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-cover-mobile {
+    width: 110px; 
+  }
+
+  .aboutme-table-container {
+    margin: 0 20px 0 20px
+  }
+}
+
+
+@media (max-width: 400px) {
+  .book-cover-mobile {
+    width: 90px;
+  }
+}

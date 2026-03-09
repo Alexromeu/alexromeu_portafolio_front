@@ -1,0 +1,30 @@
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.books-table th,
+.books-table td {
+  border: 1px solid var(--header-color);
+  padding: 12px;
+  vertical-align: top;
+  font-size: small;
+}
+
+.books-table th {
+  background: var(--header-color);
+  text-align: left;
+}
+
+.books-table img {
+  border-radius: 4px;
+  width: 150px;
+}
+
+.table-header-cover {
+    width: 150px;
+}
+
+.table-description-cover {
+    width: 500px
+}

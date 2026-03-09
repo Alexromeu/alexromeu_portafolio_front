@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Beej's Guide to Network Programming",
+    "author": "Brian “Beej Jorgensen” Hall",
+    "description": "A practical, beginner‑friendly guide to socket programming in C, covering TCP, UDP, IPv4/IPv6, and low‑level networking concepts.",
+    "cover": "/books/beej_guide_network_programming.png"
+  },
+  {
+    "title": "Hands-On System Programming with Linux",
+    "author": "Kaiwan N Billimoria",
+    "description": "A deep dive into Linux system programming, covering processes, memory, filesystems, signals, concurrency, and low‑level OS interfaces.",
+    "cover": "/books/hands_on_system_programming.png"
+  },
+  {
+    "title": "Jumping into C++",
+    "author": "Alex Allain",
+    "description": "An accessible introduction to C++ that builds strong fundamentals in syntax, memory, pointers, classes, and problem‑solving.",
+    "cover": "/books/jumping_to_cpp.png"
+  },
+  {
+    "title": "Designing Data‑Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "A comprehensive exploration of modern data systems, covering storage engines, distributed systems, scalability, consistency, and data modeling.",
+    "cover": "/books/designing_data_intensive_applications.png"
+  },
+  {
+    "title": "Operating Systems: Three Easy Pieces",
+    "author": "Remzi H. Arpaci‑Dusseau, Andrea C. Arpaci‑Dusseau",
+    "description": "A foundational OS textbook explaining processes, threads, scheduling, memory virtualization, concurrency, and file systems.",
+    "cover": "/books/operating_systems_3_easy_pieces.png"
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to JavaScript, covering language fundamentals, functional programming, asynchronous patterns, and browser APIs.",
+    "cover": "/books/elocuent_java_script.png"
+  }
+]

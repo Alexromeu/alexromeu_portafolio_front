@@ -1,47 +1,74 @@
 [
   {
     "index": 0,
-    "name": "Portfolio Site",
-    "description": "A sleek React-based portfolio. this is another line",
-    "imageurl": "/images/contact_back.jpg",
-    "demoUrl": "http://project2.com"
+    "name": "Real-Time Chat Application",
+    "description": "Full-stack chat platform with multiple chatrooms, built using React, TypeScript, Node.js, Express, PostgreSQL, Sequelize, WebSockets, and JWT authentication.",
+    "imageurl": "/projects/chat_app.png",
+    "demoUrl": "https://example.com/chat-app",
+    "githubUrl": "https://github.com/Alexromeu/chatApp-frontend",
+    "link2": "https://github.com/Alexromeu/chatApp-backend"
   },
-
   {
     "index": 1,
-    "name": "Weather App",
-    "description": "Real-time weather with API integration.",
-    "imageurl": "/images/aboutMe_background.jpg",
-    "demoUrl": "http://project1.com"
+    "name": "Stock Market Data API",
+    "description": "Lightweight Node.js API that retrieves and formats stock market data for a given symbol, focusing on clean routing and modular design.",
+    "imageurl": "/projects/stock_api.png",
+    "demoUrl": "https://example.com/stock-api",
+    "githubUrl": "https://github.com/Alexromeu/stocktracer-frontend",
+    "link2": "https://github.com/Alexromeu/stocktracer-backend"
   },
   {
     "index": 2,
-    "name": "Portfolio Site",
-    "description": "A sleek React-based portfolio.",
-    "imageurl": "/images/background-hero.jpg",
-    "demoUrl": "http://project2.com"
+    "name": "SQLite Clone",
+    "description": "A minimal SQLite-style database engine written in C, implementing B-tree indexing and supporting SELECT and INSERT operations using low-level file I/O.",
+    "imageurl": "/projects/sqlite_clone.png",
+    "demoUrl": "https://example.com/sqlite-clone",
+    "githubUrl": "https://github.com/Alexromeu/data_base_C",
+    "link2": ""
   },
-
   {
     "index": 3,
-    "name": "Weather App",
-    "description": "Real-time weather with API integration.",
-    "imageurl": "/images/contact2_back.jpg",
-    "demoUrl": "http://project1.com"
+    "name": "HTTP Server (Raw Sockets)",
+    "description": "Custom HTTP server built in C using raw TCP sockets. Parses HTTP headers, handles credential submission, stores data using system calls, and returns raw HTML responses.",
+    "imageurl": "/projects/http_server.png",
+    "demoUrl": "https://example.com/http-server",
+    "githubUrl": "https://github.com/Alexromeu/http_server",
+    "link2": ""
   },
   {
     "index": 4,
-    "name": "Portfolio Site",
-    "description": "A sleek React-based portfolio.",
-    "imageurl": "/images/background_image1.jpg",
-    "demoUrl": "http://project2.com"
+    "name": "Toy Neural Network Engine",
+    "description": "Prototype neural network implemented in C using nested neuron-layer-network structs, Xavier initialization, and groundwork for training and backpropagation.",
+    "imageurl": "/projects/toy_nn.png",
+    "demoUrl": "https://example.com/toy-nn",
+    "githubUrl": "https://github.com/Alexromeu/toy_neuralNetwork_C",
+    "link2": ""
   },
-
   {
     "index": 5,
-    "name": "Weather App",
-    "description": "Real-time weather with API integration.",
-    "imageurl": "/images/background_image2.jpg",
-    "demoUrl": "http://project1.com"
+    "name": "Blackjack Console Game",
+    "description": "Fully functional Blackjack game written in C++ to practice syntax, vectors, control flow, and basic object-oriented programming.",
+    "imageurl": "/projects/blackjack.png",
+    "demoUrl": "https://example.com/blackjack",
+    "githubUrl": "https://github.com/Alexromeu/black_jack_cpp",
+    "link2": ""
+  },
+  {
+    "index": 6,
+    "name": "Tetris Console Game",
+    "description": "Console-based Tetris clone built in C++ to strengthen problem-solving skills, grid management, and game loop logic.",
+    "imageurl": "/projects/tetris.png",
+    "demoUrl": "https://example.com/tetris",
+    "githubUrl": "https://github.com/Alexromeu/tetris_cpp",
+    "link2": ""
+  },
+  {
+    "index": 7,
+    "name": "Snake Console Game",
+    "description": "Classic Snake game implemented in C++ to reinforce understanding of arrays, movement logic, collision detection, and state updates.",
+    "imageurl": "/projects/snake.png",
+    "demoUrl": "https://example.com/snake",
+    "githubUrl": "https://github.com/Alexromeu/snake_game",
+    "link2": ""
   }
 ]

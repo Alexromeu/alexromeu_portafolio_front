@@ -42,6 +42,12 @@ a:hover {
   animation: pulse 200ms ease-in-out;
 }
 
+.header-hidden-bar {
+  height: 60px;
+  z-index: 1;
+  position: absolute;
+}
+
 body {
   padding: 0;
   margin: 0;
