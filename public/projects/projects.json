@@ -4,7 +4,7 @@
     "name": "Real-Time Chat Application",
     "description": "Full-stack chat platform with multiple chatrooms, built using React, TypeScript, Node.js, Express, PostgreSQL, Sequelize, WebSockets, and JWT authentication.",
     "imageurl": "/projects/chat_app.png",
-    "demoUrl": "https://example.com/chat-app",
+    "demoUrl": "https://github.com/Alexromeu/chatApp-frontend",
     "githubUrl": "https://github.com/Alexromeu/chatApp-frontend",
     "link2": "https://github.com/Alexromeu/chatApp-backend"
   },
@@ -13,7 +13,7 @@
     "name": "Stock Market Data API",
     "description": "Lightweight Node.js API that retrieves and formats stock market data for a given symbol, focusing on clean routing and modular design.",
     "imageurl": "/projects/stock_api.png",
-    "demoUrl": "https://example.com/stock-api",
+    "demoUrl": "https://github.com/Alexromeu/stocktracer-frontend",
     "githubUrl": "https://github.com/Alexromeu/stocktracer-frontend",
     "link2": "https://github.com/Alexromeu/stocktracer-backend"
   },
@@ -22,7 +22,7 @@
     "name": "SQLite Clone",
     "description": "A minimal SQLite-style database engine written in C, implementing B-tree indexing and supporting SELECT and INSERT operations using low-level file I/O.",
     "imageurl": "/projects/sqlite_clone.png",
-    "demoUrl": "https://example.com/sqlite-clone",
+    "demoUrl": "https://github.com/Alexromeu/data_base_C",
     "githubUrl": "https://github.com/Alexromeu/data_base_C",
     "link2": ""
   },
@@ -31,7 +31,7 @@
     "name": "HTTP Server (Raw Sockets)",
     "description": "Custom HTTP server built in C using raw TCP sockets. Parses HTTP headers, handles credential submission, stores data using system calls, and returns raw HTML responses.",
     "imageurl": "/projects/http_server.png",
-    "demoUrl": "https://example.com/http-server",
+    "demoUrl": "https://github.com/Alexromeu/http_server",
     "githubUrl": "https://github.com/Alexromeu/http_server",
     "link2": ""
   },
@@ -40,7 +40,7 @@
     "name": "Toy Neural Network Engine",
     "description": "Prototype neural network implemented in C using nested neuron-layer-network structs, Xavier initialization, and groundwork for training and backpropagation.",
     "imageurl": "/projects/toy_nn.png",
-    "demoUrl": "https://example.com/toy-nn",
+    "demoUrl": "https://github.com/Alexromeu/toy_neuralNetwork_C",
     "githubUrl": "https://github.com/Alexromeu/toy_neuralNetwork_C",
     "link2": ""
   },
@@ -49,7 +49,7 @@
     "name": "Blackjack Console Game",
     "description": "Fully functional Blackjack game written in C++ to practice syntax, vectors, control flow, and basic object-oriented programming.",
     "imageurl": "/projects/blackjack.png",
-    "demoUrl": "https://example.com/blackjack",
+    "demoUrl": "https://github.com/Alexromeu/black_jack_cpp",
     "githubUrl": "https://github.com/Alexromeu/black_jack_cpp",
     "link2": ""
   },
@@ -58,7 +58,7 @@
     "name": "Tetris Console Game",
     "description": "Console-based Tetris clone built in C++ to strengthen problem-solving skills, grid management, and game loop logic.",
     "imageurl": "/projects/tetris.png",
-    "demoUrl": "https://example.com/tetris",
+    "demoUrl": "https://github.com/Alexromeu/tetris_cpp",
     "githubUrl": "https://github.com/Alexromeu/tetris_cpp",
     "link2": ""
   },
@@ -67,7 +67,7 @@
     "name": "Snake Console Game",
     "description": "Classic Snake game implemented in C++ to reinforce understanding of arrays, movement logic, collision detection, and state updates.",
     "imageurl": "/projects/snake.png",
-    "demoUrl": "https://example.com/snake",
+    "demoUrl": "https://github.com/Alexromeu/snake_game",
     "githubUrl": "https://github.com/Alexromeu/snake_game",
     "link2": ""
   }
