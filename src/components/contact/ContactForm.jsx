@@ -8,7 +8,7 @@ import { downloadFile } from "../../utils/DownloadFile"
 
 
 export default function ContactForm() {
-  const [ showDialog, setShowDialog ] = useState(false)
+  const [ showDialog, setShowDialog ] = useState(true)
   const [downloadUrl, setDownloadUrl ] = useState('')
 
   const {
@@ -41,7 +41,7 @@ export default function ContactForm() {
 
     {showDialog && (
       
-  <Dialog open = {showDialog} onClose={() => setShowDialog(false)}>
+  <dialog className="contact-dialog" open = {showDialog} onClose={() => setShowDialog(false)}>
     <h2>Download Resume?</h2>
     <p>Would you like to download the resume now?</p>
 
@@ -51,7 +51,7 @@ export default function ContactForm() {
 
       >Yes</button>
     <button onClick={() => setShowDialog(false)}>No</button>
-  </Dialog>
+  </dialog>
 )}
   </div>
 );

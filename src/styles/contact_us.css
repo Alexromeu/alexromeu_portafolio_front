@@ -15,6 +15,23 @@
   overflow-y: hidden;
 }
 
+.contact-dialog {
+  padding: 20px;
+  background-color: black;
+  z-index: 10;
+}
+
+.contact-dialog button {
+  background-color: var(--hero-button-color);
+  margin: 20px;
+  width: 100px;
+  
+}
+
+.contact-dialog > button:hover {
+  background-color: var(--hero-button-color-hover);
+}
+
 .contact-container::before {
   content: "";
   position: absolute;
