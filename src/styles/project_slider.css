@@ -199,6 +199,7 @@
     --carousel-fade-opacity: 1;  /* No fade effect */
   }
 
+
   .carousel {
       position: relative;
       display: flex;
