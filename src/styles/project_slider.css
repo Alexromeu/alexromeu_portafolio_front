@@ -278,11 +278,11 @@
   }
 
   #projects {
-      padding: 0;
-}
+    padding: 0;
+  }
 
-#projects > h1 {
-      font-size: 1.5rem;
+  #projects > h1 {
+    font-size: 1.5rem;
 }
 
 
