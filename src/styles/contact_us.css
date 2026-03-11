@@ -113,8 +113,8 @@ form {
 
 .input-elem:focus {
   outline: none;
-  border-bottom: 2px solid #007bff;
-  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid #007bff0d;
+  background-color: var(--hero-button-color-hover);
 }
 
 fieldset {
