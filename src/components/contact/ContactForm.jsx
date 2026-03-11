@@ -19,7 +19,7 @@ export default function ContactForm() {
     if (errors.length > 0) {
       setErrors(errors)
       setShowErrorDialog(true)
-      return
+    
     }
 
     handleFormSubmit(data, setDownloadUrl, setShowDialog, reset)
