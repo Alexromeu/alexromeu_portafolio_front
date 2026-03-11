@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to JavaScript, covering language fundamentals, functional programming, asynchronous patterns, and browser APIs.",
+    "cover": "/books/elocuent_java_script.png"
+  },
+  {
+    "title": "Designing Data‑Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "A comprehensive exploration of modern data systems, covering storage engines, distributed systems, scalability, consistency, and data modeling.",
+    "cover": "/books/designing_data_intensive_applications.png"
+  }
+
+]

@@ -8,7 +8,7 @@ import { downloadFile } from "../../utils/DownloadFile"
 
 
 export default function ContactForm() {
-  const [ showDialog, setShowDialog ] = useState(true)
+  const [ showDialog, setShowDialog ] = useState(false)
   const [downloadUrl, setDownloadUrl ] = useState('')
 
   const {
