@@ -18,10 +18,6 @@ export default function Home() {
       <ScrollAnimation>  
         <Skills />
       </ScrollAnimation>
-   
-      <Footer/>   
-    
-      
     </AnimatedPage>     
     </>)
 }
