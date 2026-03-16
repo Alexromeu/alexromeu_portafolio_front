@@ -14,7 +14,17 @@
     background-attachment: fixed;
     z-index: 0;
     overflow: visible;      
-    
+}
+
+.about-me-background-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; /* adjust */
+    background: linear-gradient(to bottom, transparent, #000);
+    pointer-events: none;
 }
 
 .about-me-background-container::before {
@@ -62,6 +72,38 @@
   padding: 0 10px;
   background-color: transparent;
 }
+
+
+
+.cert-title {
+  display: flex;
+  justify-content: center;
+}
+
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.certifications > div {
+  margin-bottom: 20px;
+}
+
+.certifications > div::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: var(--bullet-img);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  
+}
+
 
 @media (max-width: 768px) {
   .about-me-container {

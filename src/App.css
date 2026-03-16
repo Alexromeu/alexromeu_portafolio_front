@@ -22,13 +22,13 @@
   --aboutme-background: url('/images/aboutMe_background.jpg');
   --other-image: url('/images/background.jpg');
   --logo: url('/icons/logo_markup.svg');
+  --bullet-img: url('/bullet.svg');
   --background_project_section_url: url('/images/projects_section_background.jpg'); 
   --header-letters-color: #F5F5F0;
   --header-letters-color-hover:#9398a1;
   --header-color: #090909;
   --hero-button-color: #47DBFF1f;
   --hero-button-color-hover: #AC199D1f;
- 
 }
 
 a {
@@ -36,6 +36,7 @@ a {
   font-size: 1.2rem;
   color: var(--header-letters-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {

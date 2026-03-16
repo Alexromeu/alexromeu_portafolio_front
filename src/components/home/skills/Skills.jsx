@@ -8,7 +8,7 @@ export default function Skills() {
   { skill: "react", url:"/icons/skills/React-Dark.svg"},      
   { skill: "JavaScript", url: "/icons/skills/JavaScript.svg" },
   { skill: "nodejs", url: "/icons/skills/NodeJS-Dark.svg" },
-  { skill: "python", url: "/icons/skills/Python-Dark.svg" },
+  { skill: "SQL", url: "/icons/skills/MySQL-Dark.svg" },
   { skill: "C", url:"/icons/skills/C.svg"},
   { skill: "C++", url:"/icons/skills/CPP.svg"},
   { skill: "TypeScript", url:"/icons/skills/TypeScript.svg"},
@@ -35,6 +35,6 @@ export default function Skills() {
         ))}
      </div>
     </section>
-    <div className="skill-down-bar"></div>
+    
     </>)
 }

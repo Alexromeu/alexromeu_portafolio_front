@@ -46,12 +46,12 @@
   },
   {
     "index": 5,
-    "name": "Blackjack Console Game",
-    "description": "Fully functional Blackjack game written in C++ to practice syntax, vectors, control flow, and basic object-oriented programming.",
-    "imageurl": "/projects/blackjack.png",
-    "demoUrl": "https://github.com/Alexromeu/black_jack_cpp",
-    "githubUrl": "https://github.com/Alexromeu/black_jack_cpp",
-    "link2": ""
+    "name": "Blockchain JS",
+    "description": "Lightweight blockchain implementation in JavaScript demonstrating core concepts such as blocks, hashing, proof-of-work, and chain validation.",
+    "imageurl": "/projects/blockchain-js.png",
+    "demoUrl": "https://github.com/Alexromeu/blockchain_js",
+    "githubUrl": "https://github.com/Alexromeu/blockchain_js",
+    "link2": ""    
   },
   {
     "index": 6,
@@ -70,5 +70,15 @@
     "demoUrl": "https://github.com/Alexromeu/snake_game",
     "githubUrl": "https://github.com/Alexromeu/snake_game",
     "link2": ""
+  },
+  {
+    "index": 8,
+    "name": "Blackjack Console Game",
+    "description": "Fully functional Blackjack game written in C++ to practice syntax, vectors, control flow, and basic object-oriented programming.",
+    "imageurl": "/projects/blackjack.png",
+    "demoUrl": "https://github.com/Alexromeu/black_jack_cpp",
+    "githubUrl": "https://github.com/Alexromeu/black_jack_cpp",
+    "link2": ""
   }
+  
 ]

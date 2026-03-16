@@ -87,9 +87,9 @@
 @media (max-width: 768px) {
     .hero-container {
       align-items: center;
-      background-size: 190% auto;
+      background-size:auto;
       background-repeat: no-repeat;
-     
+      
     }
 
     .hero-title, .hero-title-h3, .hero-button {
