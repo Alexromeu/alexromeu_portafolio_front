@@ -54,7 +54,7 @@ export default function AboutMe() {
         <h2 className="edu-title">Education</h2>
         <section className="education">
             <h2 className="degree-title">B.Sc Mathematics and Physics</h2>
-            <p><strong>University </strong>of Pedagogical Sciences EJV (<a href='https://www.whed.net/institutions/IAU-009041' target='_blank'>Look up</a>)</p>
+            <p><strong>University </strong>of Pedagogical Sciences EJV <a href='https://www.whed.net/institutions/IAU-009041' target='_blank'><sup>&#9432;</sup></a></p>
         </section>
         <h2 className="cert-title">Certifications</h2>
         <section className="certifications">
