@@ -1,6 +1,6 @@
 import parseURL from "../../utils/parseUrl";
 
-export default async function handleFormSubmit(data, setDownloadUrl, setShowDialog, reset) {
+export default async function handleFormSubmit(data, setShowDialog, reset) {
     
     try {
         console.log(data);
@@ -13,7 +13,6 @@ export default async function handleFormSubmit(data, setDownloadUrl, setShowDial
         const result = await res.json();
 
         if (res.status === 200 && result.success) {
-            setDownloadUrl(result.downloadUrl)
             setShowDialog(true)
             reset()
         }

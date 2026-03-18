@@ -2,15 +2,12 @@ import { useForm } from "react-hook-form"
 import { useState } from "react"
 import "../../styles/contact_us.css"
 import handleFormSubmit from "./handleFormSubmit"
-import { downloadFile } from "../../utils/DownloadFile"
 import validatePayload from "../../utils/validatePayload"
 
 export default function ContactForm() {
   const [showDialog, setShowDialog] = useState(false)
   const [showErrorDialog, setShowErrorDialog] = useState(false)
-  const [downloadUrl, setDownloadUrl] = useState('')
   const [errors, setErrors] = useState([])
-
   const { register, reset, handleSubmit } = useForm()
 
   const onSubmit = async (data) => {
@@ -22,7 +19,8 @@ export default function ContactForm() {
     
     }
 
-    handleFormSubmit(data, setDownloadUrl, setShowDialog, reset)
+    handleFormSubmit(data, setShowDialog, reset);
+    setShowDialog(true);
   }
 
   return (
@@ -45,11 +43,11 @@ export default function ContactForm() {
       {showDialog && (
         <dialog className="contact-dialog" open={showDialog} onClose={() => setShowDialog(false)}>
           <h2>Download Resume?</h2>
-          <p>Would you like to download the resume now?</p>
+          <p>Would you like to download my resume?</p>
 
           <button
             onClick={() => {
-              downloadFile(downloadUrl)
+              window.open("/Alexander_Romeu_Garcia_resume2026+.pdf","_blank")
               setShowDialog(false)
             }}
           >
