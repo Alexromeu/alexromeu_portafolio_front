@@ -3,7 +3,6 @@ import parseURL from "../../utils/parseUrl";
 export default async function handleFormSubmit(data, setShowDialog, reset) {
     
     try {
-        console.log(data);
         const res = await fetch(parseURL('/contact'), {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
