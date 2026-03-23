@@ -22,5 +22,12 @@
     "author": "Remzi H. Arpaci‑Dusseau, Andrea C. Arpaci‑Dusseau",
     "description": "A foundational OS textbook explaining processes, threads, scheduling, memory virtualization, concurrency, and file systems.",
     "cover": "/books/operating_systems_3_easy_pieces.png"
+  },
+  {
+  "title": "A Primer in SQL (Third Edition)",
+  "author": "R. J. Groff, P. N. Weinberg",
+  "description": "A clear, structured introduction to SQL fundamentals, covering queries, joins, data modeling, and practical relational database concepts.",
+  "cover": "/books/a_primer_in_sql.png"
   }
+  
 ]
