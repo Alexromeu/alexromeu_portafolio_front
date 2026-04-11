@@ -29,6 +29,7 @@ export default function ContactForm() {
         <fieldset>
           <legend><h2>Contact Me</h2></legend>
           <div className="input-container">
+            <input type="text" name="website" style={{display:"none"}}/>
             <input type="email" placeholder="example@mail.com" {...register("email")} className="input-elem" />
             <input type="text" placeholder="John Doe" {...register("name")} className="input-elem" />
             <textarea placeholder="Write a message here..." {...register("message")} className="input-elem" />

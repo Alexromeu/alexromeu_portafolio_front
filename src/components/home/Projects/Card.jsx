@@ -11,8 +11,7 @@ export default function Card( {data} ) {
         <div className="card-container"
          onMouseEnter={() => setIsVisible(false)} 
          onMouseLeave={() => setIsVisible(true)}>
-
-            <img className="project-image" src={data.imageurl} alt={data.name} ></img>
+            <img className="project-image" src={data.imageurl} alt={"NO IMAGE YET"} ></img>
              <h1 
                 className={`title-container ${!isVisible ? ' is-not-visible' : ""}`}
 
