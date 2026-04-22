@@ -95,7 +95,13 @@
 
 /* Ensure All Elements Inside Tile are Block */
 .carousel-tile * {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;     
+      flex-direction: column; 
+      text-wrap: initial;
 }
 
 /* Carousel Row on Hover */

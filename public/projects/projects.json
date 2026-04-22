@@ -27,13 +27,13 @@
     "link2": ""
   },
   {
-  "index": 3,
-  "name": "Redis Clone",
-  "description": "A lightweight Redis-inspired in‑memory key–value store implemented in C, featuring basic command parsing, data structures, and a minimal server loop to explore low‑level systems programming.",
-  "imageurl": "/projects/redis_clone.png",
-  "demoUrl": "https://github.com/Alexromeu/redis_clone",
-  "githubUrl": "https://github.com/Alexromeu/redis_clone",
-  "link2": ""
+    "index": 3,
+    "name": "Redis Clone",
+    "description": "A lightweight Redis-inspired in‑memory key–value store implemented in C, featuring basic command parsing, data structures, and a minimal server loop to explore low‑level systems programming.",
+    "imageurl": "/projects/redis_clone.png",
+    "demoUrl": "https://github.com/Alexromeu/redis_clone",
+    "githubUrl": "https://github.com/Alexromeu/redis_clone",
+    "link2": ""
   },
   {
     "index": 4,
