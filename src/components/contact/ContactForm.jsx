@@ -8,6 +8,7 @@ export default function ContactForm() {
   const [showDialog, setShowDialog] = useState(false)
   const [showErrorDialog, setShowErrorDialog] = useState(false)
   const [errors, setErrors] = useState([])
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const { register, reset, handleSubmit } = useForm()
 
   const onSubmit = async (data) => {
@@ -16,11 +17,20 @@ export default function ContactForm() {
     if (errors.length > 0) {
       setErrors(errors)
       setShowErrorDialog(true)
-    
+      return
     }
 
-    handleFormSubmit(data, setShowDialog, reset);
-    setShowDialog(true);
+    setIsSubmitting(true)
+    const ok = await handleFormSubmit(data)
+    setIsSubmitting(false)
+
+    if (ok) {
+      reset()
+      setShowDialog(true)
+    } else {
+      setErrors(["Something went wrong sending your message. Please try again."])
+      setShowErrorDialog(true)
+    }
   }
 
   return (
@@ -35,8 +45,10 @@ export default function ContactForm() {
             <textarea placeholder="Write a message here..." {...register("message")} className="input-elem" />
           </div>
           <div className="subnitAndClear-btn-container">
-            <button className="btn-form" type="submit">Send</button>
-            <button className="btn-form" type="button" onClick={() => reset()}>Clear</button>
+            <button className="btn-form" type="submit" disabled={isSubmitting}>
+              {isSubmitting ? "Sending..." : "Send"}
+            </button>
+            <button className="btn-form" type="button" onClick={() => reset()} disabled={isSubmitting}>Clear</button>
           </div>
         </fieldset>
       </form>

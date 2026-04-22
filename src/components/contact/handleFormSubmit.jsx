@@ -1,7 +1,6 @@
 import parseURL from "../../utils/parseUrl";
 
-export default async function handleFormSubmit(data, setShowDialog, reset) {
-    
+export default async function handleFormSubmit(data) {
     try {
         const res = await fetch(parseURL('/contact'), {
             method: 'POST',
@@ -10,14 +9,9 @@ export default async function handleFormSubmit(data, setShowDialog, reset) {
         })
 
         const result = await res.json();
-
-        if (res.status === 200 && result.success) {
-            setShowDialog(true)
-            reset()
-        }
-
+        return res.status === 200 && result.success
     } catch (err) {
         console.error('error submitting form data', err)
+        return false
     }
-       
 }
