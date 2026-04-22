@@ -80,3 +80,10 @@
     margin: 10px
 } 
 }
+
+@media (max-width: 768px) {
+    .skills-container {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}
