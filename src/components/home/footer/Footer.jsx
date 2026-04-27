@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="footer-info-container">
                 <div className="footer-email-container">
                     <h3 className="footer-email-title">Email:</h3>
-                    <a className="footer-email" href="mailto:alexxromeu@gmail.com">contact@alexromeu.net</a>
+                    <a className="footer-email" href="contact@alexromeu.net">contact@alexromeu.net</a>
                 </div>
 
                 <div className="footer-loc-container">
