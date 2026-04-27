@@ -18,12 +18,13 @@
 .skills-container img {
     width: 80px;
     margin: 10px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
-.skills-container img:hover {
+.skill-icon:hover img {
     transform: scale(1.5);
-    margin: 15px
-} 
+    margin: 15px;
+    filter: brightness(0.35) blur(3px);
+}
 
 .skill-down-bar {
     height: 80px;
@@ -40,14 +41,38 @@
 }
 
 .skill-name {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.skill-icon:hover .skill-name,
+.skill-icon:focus-within .skill-name,
+.skill-icon:active .skill-name {
+    opacity: 1;
+}
+
+.skill-icon:focus-within img,
+.skill-icon:active img {
+    transform: scale(1.5);
+    margin: 15px;
+    filter: brightness(0.35) blur(3px);
 }
 
 .skill-icon {
+    position: relative;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -71,14 +96,16 @@
     }
 
     .skill-name {
-        position: absolute;
         font-size: 10px;
     }
 
-    .skills-container img:hover {
-    transform: scale(1.1);
-    margin: 10px
-} 
+    .skill-icon:hover img,
+    .skill-icon:focus-within img,
+    .skill-icon:active img {
+        transform: scale(1.1);
+        margin: 10px;
+        filter: brightness(0.35) blur(2px);
+    }
 }
 
 @media (max-width: 768px) {

@@ -35,8 +35,17 @@
     "githubUrl": "https://github.com/Alexromeu/redis_clone",
     "link2": ""
   },
+  {                                                                                                                                                                                         
+    "index": 4,                           
+    "name": "Mared Construcciones",
+    "description": "Full-stack web app for a construction company. React 19 + Vite frontend with a public marketing site and an admin area for managing services, customers, and quotes.",                                                                                                     
+    "imageurl": "/projects/mared_present_logo.svg",                                                                                                                                                       
+    "demoUrl": "https://maredconstrucciones-front.onrender.com",                                                                                                                             
+    "githubUrl": "https://github.com/Alexromeu/maredconstrucciones_front",
+    "link2": "https://github.com/Alexromeu/maredconstrucciones_back"                                                                                                                                                                               
+  },
   {
-    "index": 4,
+    "index": 5,
     "name": "HTTP Server (Raw Sockets)",
     "description": "Custom HTTP server built in C using raw TCP sockets. Parses HTTP headers, handles credential submission, stores data using system calls, and returns raw HTML responses.",
     "imageurl": "/projects/http_server.png",
@@ -45,7 +54,7 @@
     "link2": ""
   },
   {
-    "index": 5,
+    "index": 6,
     "name": "Toy Neural Network Engine",
     "description": "Prototype neural network implemented in C using nested neuron-layer-network structs, Xavier initialization, and groundwork for training and backpropagation.",
     "imageurl": "/projects/toy_nn.png",
@@ -54,7 +63,7 @@
     "link2": ""
   },
   {
-    "index": 6,
+    "index": 7,
     "name": "Blockchain JS",
     "description": "Lightweight blockchain implementation in JavaScript demonstrating core concepts such as blocks, hashing, proof-of-work, and chain validation.",
     "imageurl": "/projects/blockchain-js.png",
@@ -63,7 +72,7 @@
     "link2": ""    
   },
   {
-    "index": 7,
+    "index": 8,
     "name": "Tetris Console Game",
     "description": "Console-based Tetris clone built in C++ to strengthen problem-solving skills, grid management, and game loop logic.",
     "imageurl": "/projects/tetris.png",
@@ -72,7 +81,7 @@
     "link2": ""
   },
   {
-    "index": 8,
+    "index": 9,
     "name": "Snake Console Game",
     "description": "Classic Snake game implemented in C++ to reinforce understanding of arrays, movement logic, collision detection, and state updates.",
     "imageurl": "/projects/snake.png",
@@ -81,7 +90,7 @@
     "link2": ""
   },
   {
-    "index": 9,
+    "index": 10,
     "name": "Blackjack Console Game",
     "description": "Fully functional Blackjack game written in C++ to practice syntax, vectors, control flow, and basic object-oriented programming.",
     "imageurl": "/projects/blackjack.png",
@@ -89,5 +98,6 @@
     "githubUrl": "https://github.com/Alexromeu/black_jack_cpp",
     "link2": ""
   }
+  
   
 ]
