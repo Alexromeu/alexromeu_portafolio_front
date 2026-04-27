@@ -75,7 +75,7 @@
   "index": 8,
   "name": "Blockchain C++",
   "description": "Minimal blockchain implementation in modern C++ featuring block structure, SHA-256 hashing, proof-of-work mining, transaction modeling, and full chain validation to explore low-level blockchain mechanics.",
-  "imageurl": "/projects/blockchain-cpp.png",
+  "imageurl": "/projects/blockchain_cpp.png",
   "demoUrl": "https://github.com/Alexromeu/blockchain_c_plus_plus",
   "githubUrl": "https://github.com/Alexromeu/blockchain_c_plus_plus",
   "link2": ""
