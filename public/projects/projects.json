@@ -4,7 +4,7 @@
     "name": "Real-Time Chat Application",
     "description": "Full-stack chat platform with multiple chatrooms, built using React, TypeScript, Node.js, Express, PostgreSQL, Sequelize, WebSockets, and JWT authentication.",
     "imageurl": "/projects/chat_app.png",
-    "demoUrl": "https://github.com/Alexromeu/chatApp-frontend",
+    "demoUrl": "https://chatapp.alexromeu.net",
     "githubUrl": "https://github.com/Alexromeu/chatApp-frontend",
     "link2": "https://github.com/Alexromeu/chatApp-backend"
   },
