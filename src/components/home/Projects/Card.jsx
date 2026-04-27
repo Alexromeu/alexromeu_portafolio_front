@@ -9,8 +9,8 @@ export default function Card( {data} ) {
     <a href={data.demoUrl} target="_blank">
 
         <div className="card-container"
-         onMouseEnter={() => setIsVisible(true)} 
-         onMouseLeave={() => setIsVisible(false)}>
+         onMouseEnter={() => setIsVisible(false)} 
+         onMouseLeave={() => setIsVisible(true)}>
             <img className="project-image" src={data.imageurl} alt={"NO IMAGE YET"} ></img>
              <h1 
                 className={`title-container ${!isVisible ? ' is-not-visible' : ""}`}
